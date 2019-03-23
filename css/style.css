@@ -1,0 +1,288 @@
+/*************************************************** GLOBAL DESIGNS ***************************************************/
+
+html {
+  font-size: 16px;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: white;
+  color: #222;
+  height: 100%;
+  cursor: auto;
+  position: inherit;
+}
+
+section.content {
+  font-size: 15px;
+}
+
+.content {
+  min-height: 250px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.box {
+  margin-top: -20px;
+  min-height: 600px;
+  border-top: 3px solid #1db198 !important;
+  border-bottom: 3px solid #dedede !important;
+}
+
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#wrapper #content-wrapper {
+  overflow-x: hidden;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 80px;
+}
+
+body.fixed-nav #content-wrapper {
+  margin-top: 0px;
+  padding-left: 90px;
+}
+
+body.fixed-nav.sidebar-toggled #content-wrapper {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  body.fixed-nav #content-wrapper {
+    padding-left: 225px;
+  }
+
+  body.fixed-nav.sidebar-toggled #content-wrapper {
+    padding-left: 90px;
+  }
+}
+
+/****************************************************** login(index) PAGE ******************************************************/
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: rgba(233, 243, 235, 0.58);
+  max-width: 230px;
+  max-height: 400px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  margin-top: 120px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-align: center;
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button,
+.form button:hover {
+  outline: 0;
+  background: #ef3b3a;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+/*table tr th {
+	max-width: 30h0px;
+	padding: 0.5625rem 0.625rem;
+	font-size: 0.875rem;
+	color: #1798A5;
+	text-align: left;
+	border-bottom: 2px solid #1798A5;
+}
+
+table tr th,
+table tr td {
+	color: #222;
+	font-size: 0.875rem;
+	padding: 0.5625rem 0.625rem;
+	text-align: left;
+
+}*/
+
+/*=======================================   End   ==================================================*/
+
+/*=======================================   table   ==================================================*/
+
+/*=======================================   End   ==================================================*/
+
+/****************************************************** MEMBER PAGE ********************************/
+
+#member-registration-container {
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#member-registration-container button {
+  float: right;
+  width: 120px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 15px;
+}
+
+/****************************************************** CLUB PAGE ******************************************************/
+
+#manage-clubs {
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#manage-clubs button {
+  float: right;
+  width: 120px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 15px;
+}
+
+/****************************************************** PAYMENT PAGE ******************************************************/
+
+#payment-container {
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#payment-container button {
+  float: right;
+  width: 120px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 15px;
+}
+
+/****************************************************** MEMBERSHIP PAGE ******************************************************/
+
+#memberships-container {
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#memberships-container button {
+  float: right;
+  width: 150px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 15px;
+}
+
+/****************************************************** STAFF PAGE ******************************************************/
+
+#staff-registration {
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#staff-registration button {
+  float: right;
+  width: 120px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 15px;
+}
+
+/****************************************************** USER PAGE ******************************************************/
+
+#manage-users {
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#manage-users button {
+  float: right;
+  width: 120px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 15px;
+}
+
+/****************************************************** CHECK IN ******************************************************
+
+#check-in {
+	width: 60%;
+	padding: 20px;
+	margin: 5% auto;
+	font-size: 15px;
+}
+
+#check-in input{
+	margin: 0 auto;
+	width: 80%;
+}
+
+#check-in button{
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+
+#check-in h2{
+	text-align: center;
+	font-size: 35px;
+}
+
+
+*****************/

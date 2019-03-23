@@ -1,0 +1,20 @@
+/************** source code pages   **********/
+
+// 
+    * login.php *
+
+    php script for the functionality of login 
+//
+
+//
+    *index.php* 
+    
+    the login page interface 
+//
+
+
+//
+    *main.php*
+
+    the main page after loging in 
+//
